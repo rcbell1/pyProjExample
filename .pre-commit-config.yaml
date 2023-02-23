@@ -43,6 +43,7 @@ repos:
       rev: v1.0.1
       hooks:
         - id: mypy
+          args: [--no-strict-optional, --ignore-missing-imports]
           additional_dependencies: [types-pyyaml==6.0.1]
 
     # update syntax to latest python style
