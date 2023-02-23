@@ -1,6 +1,6 @@
 import numpy as np
 
-import src.mult as mult
+import pyProjExample.mult as mult
 
 
 def test_mult_scalar():
