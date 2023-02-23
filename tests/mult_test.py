@@ -4,7 +4,10 @@ import src.mult as mult
 
 
 def test_mult_scalar():
-    assert mult.mult_scalar(2, 3) == 6
+    x = np.array(5)
+    y = np.array(8)
+    out = x * y
+    assert mult.mult_scalar(x, y) == out
 
 
 def test_mult_mat():
