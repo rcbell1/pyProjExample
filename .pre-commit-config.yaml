@@ -58,3 +58,13 @@ repos:
       rev: v0.33.0
       hooks:
         - id: markdownlint
+
+    # run pytest
+    - repo: local
+      hooks:
+        - id: pytest-check
+          name: pytest-check
+          entry: pytest
+          language: system
+          pass_filenames: false
+          always_run: true
