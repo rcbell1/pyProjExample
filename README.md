@@ -30,7 +30,7 @@ using a GPU. If you do not have a supported GPU, this may fail to install. https
 1. Make sure poetry is installed. 
 Follow the instructions for installing poetry using the script method. 
 I recommend you do not use `pipx` or `pip` to install poetry as the version 
-you get tends to be older. This project was made with poetry v1.3.2.
+you get tends to be older. This project was made with poetry v1.3.2.\
 `curl -sSL https://install.python-poetry.org | python3 -`
 2. `git clone git@github.com:rcbell1/pyProjExample.git`
 3. `cd pyProjExample`
