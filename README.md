@@ -16,11 +16,12 @@ commited to the remote repo. It can be activated by various events like pull
 requests. An example use case is when a pull request is made on the main
 branch, a set of actions can be triggered and the code must pass for the pull
 request to be completed.
-4. pytest - this is a unit testing module that makes testing python code easy.
-5. cmd module - this is a module that makes creation of command line interfaces
+4. virtualenv - this is one of the popular virtual environment managers.
+5. pytest - this is a unit testing module that makes testing python code easy.
+6. cmd module - this is a module that makes creation of command line interfaces
 in python easy.
-6. logging module - this is a module that makes logging easy
-7. pytorch module - the ubiquotous machine learning module for python. The
+7. logging module - this is a module that makes logging easy
+8. pytorch module - the ubiquotous machine learning module for python. The
 cuda version will be installed allowing you to train machine learning algorithms
 using a GPU. If you do not have a supported GPU, this may fail to install.
 
@@ -34,5 +35,5 @@ poetry as the version you get tends to be older.
 3. `cd pyProjExample`
 4. `mdkir ~/virtualenvs && virtualenv ~/virtualenvs/pyexamp`
 5. `source ~/virtualenvs/pyexamp/bin/activate`
-4. `poetry install`
-5. `pre-commit install`
+6. `poetry install`
+7. `pre-commit install`
