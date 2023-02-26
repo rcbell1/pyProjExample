@@ -27,10 +27,12 @@ using a GPU. If you do not have a supported GPU, this may fail to install.
 ## How to use this project
 
 1. Make sure poetry is installed. Follow the instructions for installing poetry
-using the script method. I recommend you do not use pipx or pip to install
+using the script method. I recommend you do not use `pipx` or `pip` to install
 poetry as the version you get tends to be older.
 `curl -sSL https://install.python-poetry.org | python3 -`
 2. `git clone git@github.com:rcbell1/pyProjExample.git`
 3. `cd pyProjExample`
+4. `mdkir ~/virtualenvs && virtualenv ~/virtualenvs/pyexamp`
+5. `source ~/virtualenvs/pyexamp/bin/activate`
 4. `poetry install`
 5. `pre-commit install`
