@@ -20,3 +20,17 @@ request to be completed.
 5. cmd module - this is a module that makes creation of command line interfaces
 in python easy.
 6. logging module - this is a module that makes logging easy
+7. pytorch module - the ubiquotous machine learning module for python. The
+cuda version will be installed allowing you to train machine learning algorithms
+using a GPU. If you do not have a supported GPU, this may fail to install.
+
+## How to use this project
+
+1. Make sure poetry is installed. Follow the instructions for installing poetry
+using the script method. I recommend you do not use pipx or pip to install
+poetry as the version you get tends to be older.
+`curl -sSL https://install.python-poetry.org | python3 -`
+2. `git clone git@github.com:rcbell1/pyProjExample.git`
+3. `cd pyProjExample`
+4. `poetry install`
+5. `pre-commit install`
