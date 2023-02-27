@@ -58,5 +58,5 @@ virtual environment management, I recommend uninstalling anaconda and using virt
 8. Now let poetry install all the dependencies defined in the pyproject.toml
 file.\
 `poetry install`
-9. Install the pre-commit tests to this git repo.\
+9. Install the pre-commit tests defined in .pre-commit-config.yaml to this git repo.\
 `pre-commit install`
