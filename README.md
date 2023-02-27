@@ -34,7 +34,7 @@ you get tends to be older. This project was made with poetry v1.3.2.\
 `curl -sSL https://install.python-poetry.org | python3 -`
 2. `git clone git@github.com:rcbell1/pyProjExample.git`
 3. `cd pyProjExample`
-4. `mdkir ~/virtualenvs && virtualenv ~/virtualenvs/pyexamp`
+4. `mkdir ~/virtualenvs && virtualenv ~/virtualenvs/pyexamp`
 5. `source ~/virtualenvs/pyexamp/bin/activate`
 6. `poetry install`
 7. `pre-commit install`
