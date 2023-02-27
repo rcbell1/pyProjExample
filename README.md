@@ -35,9 +35,9 @@ using a GPU. If you do not have a supported GPU, this may fail to install.
 1. Make sure the version of python you want to work with is installed on the
 machine you will be working with. If you are ok with using the pre-installed
 system version you can use that. This project requires Python 3.8+. To install
-a different version of python I recommend using the deadsnakes PPA.
-`sudo add-apt-repository ppa:deadsnakes/ppa`
-`sudo apt update`
+a different version of python I recommend using the deadsnakes PPA.\
+`sudo add-apt-repository ppa:deadsnakes/ppa`\
+`sudo apt update`\
 `sudo apt install python3.XX`
 2. Make sure poetry is installed.
 Follow the instructions for installing poetry using the script method.
@@ -45,10 +45,12 @@ I recommend you do not use `pipx` or `pip` to install poetry as the version
 you get tends to be older. This project was made with poetry v1.3.2.\
 `curl -sSL https://install.python-poetry.org | python3 -`
 3. Make sure virtualenv is installed. Other python virtual environment managers
-should work, but this has only been tested using virtualenv.\
+should work, but this has only been tested using virtualenv. Having anaconda installed
+has given me problems making this work in the past. If you use anaconda just for 
+virtual environment management, I recommend uninstalling anaconda and using virtualenv.\
 `pip install virtualenv`
 4. Create the virutal environment.\
-`mkdir -p ~/virtualenvs && virtualenv -p /usr/bin/python3.xx ~/virtualenvs/pyexamp`
+`mkdir -p ~/virtualenvs && virtualenv -p /usr/bin/python3.XX ~/virtualenvs/pyexamp`
 5. Activate the virtual environment you just created.\
 `source ~/virtualenvs/pyexamp/bin/activate`
 6. `git clone git@github.com:rcbell1/pyProjExample.git`
