@@ -48,7 +48,7 @@ you get tends to be older. This project was made with poetry v1.3.2.\
 should work, but this has only been tested using virtualenv.\
 `pip install virtualenv`
 4. Create the virutal environment.\
-`mkdir -p ~/virtualenvs && virtualenv ~/virtualenvs/pyexamp`
+`mkdir -p ~/virtualenvs && virtualenv -p /usr/bin/python3.xx ~/virtualenvs/pyexamp`
 5. Activate the virtual environment you just created.\
 `source ~/virtualenvs/pyexamp/bin/activate`
 6. `git clone git@github.com:rcbell1/pyProjExample.git`
