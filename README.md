@@ -49,7 +49,7 @@ should work, but this has only been tested using virtualenv. Having anaconda ins
 has given me problems making this work in the past. If you use anaconda just for 
 virtual environment management, I recommend uninstalling anaconda and using virtualenv.\
 `pip install virtualenv`
-4. Create the virutal environment.\
+4. Create the virtual environment.\
 `mkdir -p ~/virtualenvs && virtualenv -p /usr/bin/python3.XX ~/virtualenvs/pyexamp`
 5. Activate the virtual environment you just created.\
 `source ~/virtualenvs/pyexamp/bin/activate`
